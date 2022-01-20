@@ -24,12 +24,9 @@ gapminder_example <-
         legend.box      = 'vertical',
         axis.text.x = element_text(angle = 45, hjust = 1))
 
-gapminder_example
-
 ggsave(filename = "gapminder_example.pdf",
        plot = gapminder_example, width = 8, height = 4, 
        units = "in", device = cairo_pdf)
-
 
 ggsave(filename = "gapminder_example.png",
        plot = gapminder_example, width = 8, height = 4, 
@@ -47,3 +44,4 @@ ggsave(filename = "gapminder_example.png",
 
 # Make a plot which is as bad as possible while still attempting to honestly show the information
 # (i.e. don't add things to the plot which can't be derived from the variables in the plot)
+
