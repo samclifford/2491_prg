@@ -33,7 +33,7 @@ ggsave(filename = "gapminder_example.pdf",
 
 ggsave(filename = "gapminder_example.png",
        plot = gapminder_example, width = 8, height = 4, 
-       units = "in", dpi = 300)
+       units = "in", dpi = 150)
 
 
 # Activity 2
