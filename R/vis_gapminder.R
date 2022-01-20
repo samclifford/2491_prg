@@ -1,3 +1,7 @@
+# Activity 1
+
+# Make a plot showing how the relationship between GDP, life expectancy and population varies over time and continent
+
 library(gapminder)
 library(tidyverse)
 
@@ -30,3 +34,16 @@ ggsave(filename = "gapminder_example.pdf",
 ggsave(filename = "gapminder_example.png",
        plot = gapminder_example, width = 8, height = 4, 
        units = "in", dpi = 300)
+
+
+# Activity 2
+
+# Activity 2a
+
+# Build a graph which your group believes better shows the relationship between life expectancy and GDP
+
+
+# Activity 2b
+
+# Make a plot which is as bad as possible while still attempting to honestly show the information
+# (i.e. don't add things to the plot which can't be derived from the variables in the plot)
