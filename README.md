@@ -22,6 +22,6 @@ Data on national GDP and life expectancy at birth contained in this repository a
 | `pop` | Numeric | Population estimate               | People | integer |
 | `gdpPercap` | Numeric | Per-capita gross domestic product (adjusted for inflation)                | USD | double |
 
-Data are originally from Hans Rosling's Gapminder project.
+Data are originally from Hans Rosling's [Gapminder](https://gapminder.org/data) project.
 
 This data, and script file(s), are provided for students in the MSc in Health Data Science module **2491 - Data Challenge** for the purposes of learning about data visualisation.
