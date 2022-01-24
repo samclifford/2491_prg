@@ -24,11 +24,13 @@ gapminder_example <-
         legend.box      = 'vertical',
         axis.text.x = element_text(angle = 45, hjust = 1))
 
-ggsave(filename = "gapminder_example.pdf",
+if (!dir.exists('./results')){dir.create('./results')}
+
+ggsave(filename = "results/gapminder_example.pdf",
        plot = gapminder_example, width = 8, height = 4, 
        units = "in", device = cairo_pdf)
 
-ggsave(filename = "gapminder_example.png",
+ggsave(filename = "results/gapminder_example.png",
        plot = gapminder_example, width = 8, height = 4, 
        units = "in", dpi = 150)
 
