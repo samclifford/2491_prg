@@ -2,10 +2,14 @@
 
 # Make a plot showing how the relationship between GDP, life expectancy and population varies over time and continent
 
-library(gapminder)
 library(tidyverse)
 
-gapminder <- read_csv("../data/gapminder.csv")
+# if gapminder isn't installed, load the data file from this repo
+if (require(gapminder)){
+    data(gapminder)
+  } else {
+    gapminder <- read_csv("../data/gapminder.csv")
+}
 
 gapminder_example <- 
   ggplot(data = gapminder,
